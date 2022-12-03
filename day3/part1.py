@@ -1,6 +1,6 @@
 with open('input.txt', 'r') as f:
     data = f.read().splitlines()
-from datetime import datetime
+
 PRIORITIES = '-abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
 # there is an - in front of the letters to have the correct priority number without sum 1 each time
 
