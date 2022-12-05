@@ -29,3 +29,5 @@ final_crate = ""
 for stack in stacks:
     # take the first letter of each stack
     final_crate += stack[0][1]
+
+print(final_crate)

@@ -26,7 +26,6 @@ for line in movements:
     stacks[info[2]-1] = stacks[info[1]-1][:info[0]] + stacks[info[2]-1]
     stacks[info[1]-1] = stacks[info[1]-1][info[0]:]
 
-print(stacks)
 final_crate = ""
 for stack in stacks:
     # take the first letter of each stack
